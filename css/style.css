@@ -5,7 +5,7 @@
 
 :root {
   --Very-Dark-Blue: hsl(243, 87%, 12%);
-  --Desaturated-Blue: hsl(238, 22%, 44%);
+  --Desaturated-Blue: hsl(239, 46%, 49%);
 
   --Bright-Blue: hsl(224, 93%, 58%);
   --Moderate-Cyan: hsl(170, 45%, 43%);
@@ -49,10 +49,11 @@ body {
 
 .hero__logo {
   max-width: 120px;
-  width: 60%;
+  width: 65%;
 }
 
 .hero__link {
+  font-size: 14px;
   text-decoration: none;
   color: var(--Desaturated-Blue);
 }
@@ -109,7 +110,6 @@ body {
   border: none;
   outline: none;
   border-radius: 3px;
-  box-shadow: 1px 1px rgb(red, green, blue, 0.7px);
   font-family: var(--raleway);
   font-weight: 600;
   font-size: 15px;
@@ -279,18 +279,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
 }
 
 .input__email--end {
   width: 90%;
+  margin: 0 auto;
 }
 
 .btn--end {
-  width: 90%;
-  padding: 15px 8px;
   font-size: 12px;
+  font-weight: 600;
+
+  width: 90%;
 }
 
 .footer {
@@ -521,6 +521,7 @@ body {
 
   .btn--end {
     margin-right: 100px;
+    padding: 15px 8px;
   }
 
   .main__end__form {
